@@ -1,0 +1,22 @@
+Асинхронность в JS реализуется на 
+ - callbacks
+ - async.js
+ - promises
+ - async/await
+ - generators/yield 
+ - observable/events
+ - functor + cahining + composition
+ - forawait + Symbol.asyncItrator
+
+Группировка...
+ 
+async.js > callbacks
+async/await > promises
+events > observable
+functtor + cahining + composition
+
+
+Контракт
+
+cllabck - LAST
+error - FIRST
